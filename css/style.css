@@ -3,10 +3,12 @@ body{
 }
 
 .legcarrossel{
-    text-shadow: 3px 3px 5px #074c4e;
+    color: #bef0dd;
+    text-shadow: 3px 3px 5px #011c1d;
 }
 
 .legcarrossel2{
     font-size: 1.5em;
-    text-shadow: 3px 3px 5px #074c4e;
+    color: #bef0dd;
+    text-shadow: 3px 3px 5px #011c1d;
 }
