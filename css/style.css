@@ -12,3 +12,7 @@ body{
     color: #bef0dd;
     text-shadow: 3px 3px 5px #011c1d;
 }
+
+#introducao, #galeria{
+    margin-top: 2%;
+}
