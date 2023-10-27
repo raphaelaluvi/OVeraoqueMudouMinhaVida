@@ -33,6 +33,7 @@ section{
 }
 
 .imggaleria, .imgsobre{
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -42,4 +43,17 @@ section{
     margin-right: auto;
     width: 70%;
     border-radius: 10px;
+}
+
+.detalhesmenu{
+    background-color: #648d73;
+}
+
+.imgmenu{
+    width: 17%;
+}
+
+.tamp{
+    font-size: larger;
+    text-indent: 25px;
 }
