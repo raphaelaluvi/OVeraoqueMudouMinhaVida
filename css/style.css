@@ -3,28 +3,28 @@ body{
 }
 
 .corbody{
-    background-color: #93BFA3;
+    background-color: #9FD1CB;
 }
 
 
 section{
-    background-color: #648d73;
+    background-color: #2f8076;
     border-radius: 20px;
     padding: 2%;
 }
 
 .legcarrossel{
     color: #bef0dd;
-    text-shadow: 3px 3px 5px #011c1d;
+    text-shadow: 3px 3px 5px #0b2e2a;
 }
 
 .legcarrossel2{
     font-size: 1.5em;
     color: #bef0dd;
-    text-shadow: 3px 3px 5px #011c1d;
+    text-shadow: 3px 3px 5px #0b2e2a;
 }
 
-#introducao, #galeria, #temporada2, #personagens{
+#introducao, #galeria, #temporada2, #personagens, #livro1, #livro2, #livro3, #autora{
     margin-top: 2%;
 }
 
@@ -32,7 +32,7 @@ section{
     margin-bottom: 2%;
 }
 
-.imggaleria, .imgsobre{
+.imggaleria, .imgsobre, .imgperso{
     width: 100%;
     border-radius: 10px;
 }
@@ -46,14 +46,20 @@ section{
 }
 
 .detalhesmenu{
-    background-color: #648d73;
+    background-color: #2f8076;
 }
 
 .imgmenu{
-    width: 17%;
+    width: 20%;
+    margin-left: 10%;
 }
 
 .tamp{
     font-size: larger;
     text-indent: 25px;
+}
+
+.escritamenu{
+    font-size: 1.2em;
+
 }
