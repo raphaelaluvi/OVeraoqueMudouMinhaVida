@@ -17,6 +17,10 @@ section{
     padding: 2%;
 }
 
+.shadownova{
+    box-shadow:  0 15px 20px 0 #135049;
+}
+
 .legcarrossel{
     color: #bef0dd;
     text-shadow: 3px 3px 5px #0b2e2a;
@@ -36,9 +40,20 @@ section{
     margin-bottom: 2%;
 }
 
-.imggaleria, .imgsobre, .imgperso, .imgautora{
+.h2espaco{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.imggaleria, .imgsobre, .imgautora{
     width: 100%;
     border-radius: 10px;
+}
+
+.imgperso{
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
 }
 
 .img2temp, .imglivro{
@@ -63,7 +78,6 @@ section{
 
 .imgmenu{
     width: 20%;
-    margin-left: 10%;
 }
 
 p{
@@ -73,11 +87,49 @@ p{
 
 .escritamenu{
     font-size: 1.2em;
-
+    color:rgb(255, 255, 255);
 }
 
 footer{
     background-color: #2f8076;
     margin-top: 1%;
     padding: 2%;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.partefixa{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.itens{
+    font-size: 1.1em;
+}
+
+.itens a:hover{
+    padding: 0.75%;
+    background-color: #135049;
+    text-decoration: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+
+.baixarimgs{
+    margin-top: 5%;
+}
+
+@media screen and (max-width:800px) {
+
+    .baixarimgs{
+        margin-top: 10%;
+    }
 }
