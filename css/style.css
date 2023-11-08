@@ -93,11 +93,6 @@ p{
     color:rgb(255, 255, 255);
 }
 
-footer{
-    background-color: #2f8076;
-    margin-top: 1%;
-    padding: 2%;
-}
 
 header{
     width: 100%;
@@ -155,4 +150,14 @@ header{
 
 .concha{
     width: 7%;
+}
+
+.iconefooter{
+    width: 3%;
+}
+
+footer{
+    background-color: #2f8076;
+    margin-top: 2%;
+    padding: 1%;
 }
