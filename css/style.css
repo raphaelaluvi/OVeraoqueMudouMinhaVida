@@ -4,6 +4,7 @@ html{
 
 body{
     font-family: 'Arvo', serif;
+    color: #e7fdfb;
 }
 
 .corbody{
@@ -40,9 +41,10 @@ section{
     margin-bottom: 2%;
 }
 
-.h2espaco{
+.h3espaco{
     margin-top: 2%;
     margin-bottom: 3%;
+    text-shadow: 3px 3px 5px #0b2e2a;
 }
 
 .imggaleria, .imgsobre, .imgautora{
@@ -54,6 +56,7 @@ section{
     width: 70%;
     border-radius: 10px;
     margin-bottom: 0.5%;
+    box-shadow: 2px 15px 20px 2px #0b2e2a;
 }
 
 .img2temp, .imglivro{
@@ -81,7 +84,7 @@ section{
 }
 
 p{
-    font-size: larger;
+    font-size: 1.2em;
     text-indent: 25px;
 }
 
