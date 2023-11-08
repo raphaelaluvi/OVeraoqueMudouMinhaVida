@@ -136,3 +136,23 @@ header{
         margin-top: 10%;
     }
 }
+
+.relative{
+    position: relative;
+}
+
+.absoluteesq{
+    position: absolute;
+    left: 10px;
+    top: 1%;
+}
+
+.absolutedir{
+    position: absolute;
+    right: 10px;
+    top: 1%;
+}
+
+.concha{
+    width: 7%;
+}
